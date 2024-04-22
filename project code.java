@@ -120,7 +120,6 @@ class bank11 implements ActionListener {
 
         try {
           // Load the Oracle JDBC driver (this is not needed with recent JDBC versions)
-           // System.setProperty("java.class.path", "D:/oracle/product/10.2.0/db_2/jdbc/lib/ojdbc14.jar");
 		   Class.forName("oracle.jdbc.driver.OracleDriver");
 		  
 
